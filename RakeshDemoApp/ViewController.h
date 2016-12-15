@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "extraClass.h"
 @interface ViewController : UIViewController
+
+
+
+-(void)callMeMethod;
+-(IBAction)someBtn:(id)sender;
 
 
 @end

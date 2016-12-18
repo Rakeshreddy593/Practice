@@ -16,6 +16,9 @@
 		B9A43D721DF9127100F39167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9A43D701DF9127100F39167 /* LaunchScreen.storyboard */; };
 		B9D8E8B11DFC71E800777811 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D8E8B01DFC71E800777811 /* secondViewController.m */; };
 		B9D8E8B41DFC786200777811 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D8E8B31DFC786200777811 /* MapKit.framework */; };
+		DC3BDD101E04E82600544F1D /* bike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC3BDD0D1E04E82600544F1D /* bike.jpg */; };
+		DC3BDD111E04E82600544F1D /* car.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC3BDD0E1E04E82600544F1D /* car.jpg */; };
+		DC3BDD121E04E82600544F1D /* van.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC3BDD0F1E04E82600544F1D /* van.jpg */; };
 		DC9E11191DFE24CD0094FDF6 /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC9E11181DFE24CD0094FDF6 /* Unknown.jpg */; };
 		DC9E111B1DFE25810094FDF6 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC9E111A1DFE25810094FDF6 /* 12.jpg */; };
 /* End PBXBuildFile section */
@@ -36,6 +39,9 @@
 		B9D8E8AF1DFC71E800777811 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
 		B9D8E8B01DFC71E800777811 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
 		B9D8E8B31DFC786200777811 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DC3BDD0D1E04E82600544F1D /* bike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bike.jpg; sourceTree = "<group>"; };
+		DC3BDD0E1E04E82600544F1D /* car.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpg; sourceTree = "<group>"; };
+		DC3BDD0F1E04E82600544F1D /* van.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = van.jpg; sourceTree = "<group>"; };
 		DC9E11181DFE24CD0094FDF6 /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpg; sourceTree = "<group>"; };
 		DC9E111A1DFE25810094FDF6 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +81,9 @@
 				B9A43D651DF9127100F39167 /* AppDelegate.h */,
 				B9A43D661DF9127100F39167 /* AppDelegate.m */,
 				B9A43D681DF9127100F39167 /* ViewController.h */,
+				DC3BDD0D1E04E82600544F1D /* bike.jpg */,
+				DC3BDD0E1E04E82600544F1D /* car.jpg */,
+				DC3BDD0F1E04E82600544F1D /* van.jpg */,
 				DC9E111A1DFE25810094FDF6 /* 12.jpg */,
 				DC9E11181DFE24CD0094FDF6 /* Unknown.jpg */,
 				B9A43D691DF9127100F39167 /* ViewController.m */,
@@ -165,10 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3BDD111E04E82600544F1D /* car.jpg in Resources */,
 				DC9E111B1DFE25810094FDF6 /* 12.jpg in Resources */,
 				B9A43D721DF9127100F39167 /* LaunchScreen.storyboard in Resources */,
+				DC3BDD121E04E82600544F1D /* van.jpg in Resources */,
 				B9A43D6F1DF9127100F39167 /* Assets.xcassets in Resources */,
 				DC9E11191DFE24CD0094FDF6 /* Unknown.jpg in Resources */,
+				DC3BDD101E04E82600544F1D /* bike.jpg in Resources */,
 				B9A43D6D1DF9127100F39167 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
